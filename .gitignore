@@ -23,3 +23,7 @@
 /provisioners/remote-exec/terraform.tfstate
 /provisioners/remote-exec/terraform.tfstate.backup
 /provisioners/local-exec/private_ips.txt
+/provisioners/null_resource/.terraform
+/provisioners/null_resource/.terraform.lock.hcl
+/provisioners/null_resource/terraform.tfstate
+/provisioners/null_resource/terraform.tfstate.backup
