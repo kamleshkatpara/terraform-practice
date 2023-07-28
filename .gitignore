@@ -29,8 +29,16 @@
 /provisioners/null_resource/.terraform.lock.hcl
 /provisioners/null_resource/terraform.tfstate
 /provisioners/null_resource/terraform.tfstate.backup
+
 /providers/azure/.terraform
 /providers/azure/.terraform.lock.hcl
 /providers/azure/terraform.tfstate
 providers/azure/terraform.tfstate.backup
 providers/azure/.terraform.tfstate.lock.info
+
+/providers/gcp/.terraform
+/providers/gcp/.terraform.lock.hcl
+/providers/gcp/.terraform.tfstate.lock.info
+/providers/gcp/terraform.tfstate
+/providers/gcp/terraform.tfstate.backup
+/providers/gcp/terraform-gcp-example-394222-f5b444739812.json
