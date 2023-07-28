@@ -32,3 +32,5 @@
 /providers/azure/.terraform
 /providers/azure/.terraform.lock.hcl
 /providers/azure/terraform.tfstate
+providers/azure/terraform.tfstate.backup
+providers/azure/.terraform.tfstate.lock.info

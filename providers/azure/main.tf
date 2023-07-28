@@ -20,12 +20,13 @@ module "linuxservers" {
   source              = "Azure/compute/azurerm"
   resource_group_name = azurerm_resource_group.terraform_azure_providers.name
   vm_os_simple        = "UbuntuServer"
-  public_ip_dns       = ["linsimplevmips"] // change to a unique name per datacenter region
+  public_ip_dns       = ["linsimplevmipseastus"] // change to a unique name per datacenter region
   vnet_subnet_id      = module.network.vnet_subnets[0]
-  vm_size             = "Standard_B1s"
+  vm_size             = "Standard_B1ls"
   depends_on          = [azurerm_resource_group.terraform_azure_providers]
-  enable_ssh_key      = true
-  ssh_key             = file("C:/Users/kamlesh/.ssh/terraform.pub")
+  admin_username      = "azureuser"
+  admin_password      = "Qwerty@123"
+  enable_ssh_key      = false
 }
 
 module "network" {
@@ -36,7 +37,6 @@ module "network" {
   use_for_each        = true
   depends_on          = [azurerm_resource_group.terraform_azure_providers]
 }
-
 
 output "linux_vm_public_name" {
   value = module.linuxservers.public_ip_dns_name
