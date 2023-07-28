@@ -1,9 +1,9 @@
 terraform {
-  cloud {
+  /* cloud {
     organization = "kamleshkatpara"
 
     workspaces {
       name = "provisioners"
     }
-  }
+  } */
 }
