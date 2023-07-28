@@ -17,12 +17,14 @@
 /provisioners/local-exec/.terraform.lock.hcl
 /provisioners/local-exec/terraform.tfstate
 /provisioners/local-exec/terraform.tfstate.backup
+/provisioners/local-exec/private_ips.txt
 
 /provisioners/remote-exec/.terraform
 /provisioners/remote-exec/.terraform.lock.hcl
 /provisioners/remote-exec/terraform.tfstate
 /provisioners/remote-exec/terraform.tfstate.backup
-/provisioners/local-exec/private_ips.txt
+
+
 /provisioners/null_resource/.terraform
 /provisioners/null_resource/.terraform.lock.hcl
 /provisioners/null_resource/terraform.tfstate
