@@ -29,3 +29,6 @@
 /provisioners/null_resource/.terraform.lock.hcl
 /provisioners/null_resource/terraform.tfstate
 /provisioners/null_resource/terraform.tfstate.backup
+/providers/azure/.terraform
+/providers/azure/.terraform.lock.hcl
+/providers/azure/terraform.tfstate

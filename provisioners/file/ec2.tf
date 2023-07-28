@@ -16,7 +16,7 @@ resource "aws_instance" "my_app_server" {
       type        = "ssh"
       user        = "ec2-user"
       host        = self.public_ip
-      private_key = file("C:/Users/kamlesh/.ssh/terraform")
+      private_key = file("/root/.ssh/terraform")
     }
   }
   tags = {
