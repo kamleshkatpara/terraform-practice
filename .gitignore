@@ -67,3 +67,9 @@
 
 05_resource-meta-arguements/lifecycle/.terraform.lock.hcl
 05_resource-meta-arguements/lifecycle/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+07_dynamic-blocks/.terraform.lock.hcl
+07_dynamic-blocks/terraform.tfstate
+07_dynamic-blocks/terraform.tfstate.backup
+07_dynamic-blocks/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+08_versions/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+08_versions/.terraform.lock.hcl
