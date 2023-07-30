@@ -1,69 +1,69 @@
-/getting_started/.terraform
-/getting_started/.terraform.lock.hcl
-/getting_started/terraform.tfstate
-/getting_started/terraform.tfstate.backup
+/01_getting_started/.terraform
+/01_/.terraform.lock.hcl
+/01_/terraform.tfstate
+/01_/terraform.tfstate.backup
 
-/provisioners/clout-init/.terraform
-/provisioners/clout-init/.terraform.lock.hcl
-/provisioners/clout-init/terraform.tfstate
-/provisioners/clout-init/terraform.tfstate.backup
+/02_provisioners/clout-init/.terraform
+/02_provisioners/clout-init/.terraform.lock.hcl
+/02_provisioners/clout-init/terraform.tfstate
+/02_provisioners/clout-init/terraform.tfstate.backup
 
-/provisioners/file/.terraform
-/provisioners/file/.terraform.lock.hcl
-/provisioners/file/terraform.tfstate
-/provisioners/file/terraform.tfstate.backup
+/02_provisioners/file/.terraform
+/02_provisioners/file/.terraform.lock.hcl
+/02_provisioners/file/terraform.tfstate
+/02_provisioners/file/terraform.tfstate.backup
 
-/provisioners/local-exec/.terraform
-/provisioners/local-exec/.terraform.lock.hcl
-/provisioners/local-exec/terraform.tfstate
-/provisioners/local-exec/terraform.tfstate.backup
-/provisioners/local-exec/private_ips.txt
+/02_provisioners/local-exec/.terraform
+/02_provisioners/local-exec/.terraform.lock.hcl
+/02_provisioners/local-exec/terraform.tfstate
+/02_provisioners/local-exec/terraform.tfstate.backup
+/02_provisioners/local-exec/private_ips.txt
 
-/provisioners/remote-exec/.terraform
-/provisioners/remote-exec/.terraform.lock.hcl
-/provisioners/remote-exec/terraform.tfstate
-/provisioners/remote-exec/terraform.tfstate.backup
+/02_provisioners/remote-exec/.terraform
+/02_provisioners/remote-exec/.terraform.lock.hcl
+/02_provisioners/remote-exec/terraform.tfstate
+/02_provisioners/remote-exec/terraform.tfstate.backup
 
 
-/provisioners/null_resource/.terraform
-/provisioners/null_resource/.terraform.lock.hcl
-/provisioners/null_resource/terraform.tfstate
-/provisioners/null_resource/terraform.tfstate.backup
+/02_provisioners/null_resource/.terraform
+/02_provisioners/null_resource/.terraform.lock.hcl
+/02_provisioners/null_resource/terraform.tfstate
+/02_provisioners/null_resource/terraform.tfstate.backup
 
-/providers/azure/.terraform
-/providers/azure/.terraform.lock.hcl
-/providers/azure/terraform.tfstate
-providers/azure/terraform.tfstate.backup
-providers/azure/.terraform.tfstate.lock.info
+/03_providers/azure/.terraform
+/03_providers/azure/.terraform.lock.hcl
+/03_providers/azure/terraform.tfstate
+03_providers/azure/terraform.tfstate.backup
+03_providers/azure/.terraform.tfstate.lock.info
 
-/providers/gcp/.terraform
-/providers/gcp/.terraform.lock.hcl
-/providers/gcp/.terraform.tfstate.lock.info
-/providers/gcp/terraform.tfstate
-/providers/gcp/terraform.tfstate.backup
-/providers/gcp/terraform-gcp-example-394222-f5b444739812.json
+/03_providers/gcp/.terraform
+/03_providers/gcp/.terraform.lock.hcl
+/03_providers/gcp/.terraform.tfstate.lock.info
+/03_providers/gcp/terraform.tfstate
+/03_providers/gcp/terraform.tfstate.backup
+/03_providers/gcp/terraform-gcp-example-394222-f5b444739812.json
 
-/variable-and-outputs/.terraform
-/variable-and-outputs/.terraform.lock.hcl
-variable-and-outputs/terraform.tfstate
-variable-and-outputs/terraform.tfstate.backup
+/04_variable-and-outputs/.terraform
+/04_variable-and-outputs/.terraform.lock.hcl
+04_variable-and-outputs/terraform.tfstate
+04_variable-and-outputs/terraform.tfstate.backup
 
-resource-meta-arguements/depends-on/terraform.tfstate
-resource-meta-arguements/depends-on/terraform.tfstate.backup
-resource-meta-arguements/depends-on/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
-resource-meta-arguements/depends-on/.terraform.lock.hcl
+05_resource-meta-arguements/depends-on/terraform.tfstate
+05_resource-meta-arguements/depends-on/terraform.tfstate.backup
+05_resource-meta-arguements/depends-on/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+05_resource-meta-arguements/depends-on/.terraform.lock.hcl
 
-resource-meta-arguements/count/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
-resource-meta-arguements/count/.terraform.lock.hcl
+05_resource-meta-arguements/count/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+05_resource-meta-arguements/count/.terraform.lock.hcl
 
-resource-meta-arguements/for-each/.terraform.lock.hcl
-resource-meta-arguements/for-each/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+05_resource-meta-arguements/for-each/.terraform.lock.hcl
+05_resource-meta-arguements/for-each/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
 
-resource-meta-arguements/alias/.terraform.lock.hcl
-resource-meta-arguements/alias/terraform.tfstate
-resource-meta-arguements/alias/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
-resource-meta-arguements/alias/.terraform.tfstate.lock.info
-resource-meta-arguements/alias/terraform.tfstate.backup
+05_resource-meta-arguements/alias/.terraform.lock.hcl
+05_resource-meta-arguements/alias/terraform.tfstate
+05_resource-meta-arguements/alias/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+05_resource-meta-arguements/alias/.terraform.tfstate.lock.info
+05_resource-meta-arguements/alias/terraform.tfstate.backup
 
-resource-meta-arguements/lifecycle/.terraform.lock.hcl
-resource-meta-arguements/lifecycle/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+05_resource-meta-arguements/lifecycle/.terraform.lock.hcl
+05_resource-meta-arguements/lifecycle/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
