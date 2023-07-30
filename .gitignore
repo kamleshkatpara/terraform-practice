@@ -45,3 +45,5 @@ providers/azure/.terraform.tfstate.lock.info
 
 /variable-and-outputs/.terraform
 /variable-and-outputs/.terraform.lock.hcl
+variable-and-outputs/terraform.tfstate
+variable-and-outputs/terraform.tfstate.backup
