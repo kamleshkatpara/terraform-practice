@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+
 variable "instance_type" {
   type        = string
   description = "The size of the instance."
@@ -22,24 +23,9 @@ provider "aws" {
   region  = "us-east-1"
 }
 
-data "aws_ami" "ubuntu" {
-  most_recent = true
-
-  filter {
-    name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
-  }
-
-  filter {
-    name   = "virtualization-type"
-    values = ["hvm"]
-  }
-
-  owners = ["099720109477"] # Canonical
-}
 
 resource "aws_instance" "my_server" {
-  ami           = data.aws_ami.ubuntu.id
+  ami           = "ami-072ec8f4ea4a6f2cf"
   instance_type = var.instance_type
 }
 
