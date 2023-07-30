@@ -55,3 +55,6 @@ resource-meta-arguements/depends-on/.terraform.lock.hcl
 
 resource-meta-arguements/count/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
 resource-meta-arguements/count/.terraform.lock.hcl
+
+resource-meta-arguements/for-each/.terraform.lock.hcl
+resource-meta-arguements/for-each/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
