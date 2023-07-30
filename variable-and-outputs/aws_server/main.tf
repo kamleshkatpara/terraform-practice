@@ -23,10 +23,14 @@ provider "aws" {
   region  = "us-east-1"
 }
 
-
-resource "aws_instance" "my_server" {
+locals {
   ami           = "ami-072ec8f4ea4a6f2cf"
   instance_type = var.instance_type
+}
+
+resource "aws_instance" "my_server" {
+  ami           = local.ami
+  instance_type = local.instance_type
 }
 
 output "public_ip" {
