@@ -47,3 +47,8 @@ providers/azure/.terraform.tfstate.lock.info
 /variable-and-outputs/.terraform.lock.hcl
 variable-and-outputs/terraform.tfstate
 variable-and-outputs/terraform.tfstate.backup
+
+resource-meta-arguements-depends-on/terraform.tfstate
+resource-meta-arguements-depends-on/terraform.tfstate.backup
+resource-meta-arguements-depends-on/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+resource-meta-arguements-depends-on/.terraform.lock.hcl
