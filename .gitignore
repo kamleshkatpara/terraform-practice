@@ -79,3 +79,6 @@
 09_terraform_state/terraform.tfstate
 09_terraform_state/terraform.tfstate.backup
 09_terraform_state/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+
+010_plan-and-apply/.terraform/providers/registry.terraform.io/hashicorp/aws/5.9.0/linux_amd64/terraform-provider-aws_v5.9.0_x5
+010_plan-and-apply/.terraform.lock.hcl
